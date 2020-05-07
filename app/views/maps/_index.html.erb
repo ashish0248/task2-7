@@ -60,7 +60,7 @@ function initMap(){
 // }
 // ここまで追加 
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeIAEZh3ewcpWOKDzu_cdUK1a2bWW8lYs&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['API_KEY'] %>&callback=initMap" async defer></script>
 </script>
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key==<% ENV['API_KEY'] %>&callback=initMap" async defer></script> -->
 <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeIAEZh3ewcpWOKDzu_cdUK1a2bWW8lYs&callback=initMap" type="text/javascript"></script> -->
