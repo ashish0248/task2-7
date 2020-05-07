@@ -74,3 +74,6 @@ gem 'pry-byebug'
 gem 'jp_prefecture'
 gem 'jquery-rails' #rails5はこれを入れないとjQueryが動きません
 gem 'simple_form'
+
+# 環境変数用
+gem 'dotenv-rails'

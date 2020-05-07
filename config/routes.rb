@@ -22,5 +22,6 @@ Rails.application.routes.draw do
   get  'serch_book' => 'searches#index',  as: 'search_book'
   get  'serche_user' => 'searches#new',  as: 'search_user'
 
+  get 'maps/index'
 end
 
