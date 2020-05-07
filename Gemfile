@@ -71,4 +71,6 @@ gem 'jquery-rails'
 
 gem 'pry-byebug'
 
-# gem 'remotipart', '~> 1.0'
+gem 'jp_prefecture'
+gem 'jquery-rails' #rails5はこれを入れないとjQueryが動きません
+gem 'simple_form'

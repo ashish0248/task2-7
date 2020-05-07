@@ -18,6 +18,6 @@ before_action :authenticate_user!, except: [:top, :about]
   end
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :email])
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name, :email, :postcode, :prefecture_code, :address_city, :address_street, :address_building])
   end
 end
